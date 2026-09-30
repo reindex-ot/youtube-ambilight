@@ -1671,7 +1671,10 @@ But if this happens frequently, here are some possible causes:
     if (!this.menuBtn.classList.contains('is-loading')) return;
 
     this.menuBtn.classList.remove('is-loading');
-    this.settingsMenuBtnTooltipText.textContent = 'Ambient light settings';
+    this.settingsMenuBtnTooltipText.textContent = getMessage(
+      'settings_btn_tooltip',
+      'Ambient light settings'
+    );
 
     this.showUpdatesMessage();
   };
@@ -1680,9 +1683,20 @@ But if this happens frequently, here are some possible causes:
     const message = ex?.message ?? typeof ex;
     if (this.menuBtn?.classList?.contains?.('is-loading')) {
       this.menuBtn.classList.add('has-warning');
-      this.settingsMenuBtnTooltipText.textContent = `Ambient light failed to load:\n${message}`;
+      this.settingsMenuBtnTooltipText.textContent = getMessage(
+        'settings_btn_tooltip_failed',
+        `Ambient light failed to load:\n${message}`,
+        [message]
+      );
     } else {
-      this.setWarning(`An error occured:\n${message}`, true);
+      this.setWarning(
+        getMessage(
+          'settings_error_occurred',
+          `An error occurred:\n${message}`,
+          [message]
+        ),
+        true
+      );
     }
   };
 

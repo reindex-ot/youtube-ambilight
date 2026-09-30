@@ -206,6 +206,21 @@
   "settings_hotkey_tooltip": {
     "message": "Click here and press a key to change the hotkey\n(Or press the escape key to disable this hotkey)"
   },
+  "settings_btn_tooltip": {
+    "message": "Ambient light settings"
+  },
+  "settings_btn_tooltip_failed": {
+    "message": "Ambient light failed to load:\n$1",
+    "placeholders": {
+      "1": { "content": "$1" }
+    }
+  },
+  "settings_error_occurred": {
+    "message": "An error occurred:\n$1",
+    "placeholders": {
+      "1": { "content": "$1" }
+    }
+  },
   "settings_paused_title": {
     "message": "Ambient light loading is paused."
   },
