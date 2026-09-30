@@ -20,7 +20,7 @@
     "message": "設定ボタンが見当たりません"
   },
   "options_troubleshoot_no_button_desc1": {
-    "message": "ブラウザで Web ページを更新してください。"
+    "message": "ブラウザでウェブページを更新してください。"
   },
   "options_troubleshoot_no_button_desc2": {
     "message": "ページを更新後でも設定ボタンが表示されない場合は、ブラウザのコンソールを開き (F12 を押下)、エラーや警告がないか確認をした上で、以下の方法で報告してください:"
