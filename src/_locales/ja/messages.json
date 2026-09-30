@@ -38,19 +38,19 @@
     "message": "パフォーマンスの問題を修正"
   },
   "options_fix_performance_desc_before": {
-    "message": "Follow the "
+    "message": ""
   },
   "options_troubleshoot_guide": {
-    "message": "troubleshoot guide"
+    "message": "トラブルシューティングガイド"
   },
   "options_fix_performance_desc_after": {
-    "message": " to resolve performance issue"
+    "message": "に従ってパフォーマンスの問題を解決してください"
   },
   "options_support_title": {
-    "message": "Support me"
+    "message": "開発を支援"
   },
   "options_support_donation_alt": {
-    "message": "Support me via a donation"
+    "message": "寄付で開発を支援"
   },
   "options_import_export_title": {
     "message": "設定をインポート/エクスポート"
@@ -113,7 +113,7 @@
     "message": "すべてのチェックボックスのチェックが外れている場合、クラッシュレポートは送信されません。"
   },
   "options_privacy_policy": {
-    "message": "Our privacy policy"
+    "message": "プライバシーポリシー"
   },
   "options_warning_sync_open_pages": {
     "message": "Unable to synchronize any crash option changes to youtube pages that are already open. Make sure to refresh any open youtube pages after you've changed an option."
@@ -219,7 +219,7 @@
     "message": "右クリックでリセット"
   },
   "settings_snap_to": {
-    "message": "Set to $1",
+    "message": "$1に設定",
     "placeholders": {
       "1": { "content": "$1" }
     }
@@ -330,10 +330,10 @@
     "message": "OLED (overlay)"
   },
   "setting_sectionOtherPageHeaderCollapsed_label": {
-    "message": "Page header"
+    "message": "ページヘッダー"
   },
   "setting_headerShadowSize_label": {
-    "message": "Shadows size"
+    "message": "シャドウのサイズ"
   },
   "setting_headerShadowOpacity_label": {
     "message": "Shadows opacity"
@@ -348,10 +348,10 @@
     "message": "Only applies when scrolled down"
   },
   "setting_sectionOtherPageContentCollapsed_label": {
-    "message": "Page content"
+    "message": "ページコンテンツ"
   },
   "setting_surroundingContentShadowSize_label": {
-    "message": "Shadows size"
+    "message": "シャドウのサイズ"
   },
   "setting_surroundingContentShadowOpacity_label": {
     "message": "Shadows opacity"
@@ -441,7 +441,7 @@
     "message": "Remove black & colored bars"
   },
   "setting_detectHorizontalBarSizeEnabled_label": {
-    "message": "Remove black bars"
+    "message": "黒いバーを削除"
   },
   "setting_detectHorizontalBarSizeEnabled_desc": {
     "message": "Uses: CPU power"
@@ -480,7 +480,7 @@
     "message": "Bar size"
   },
   "setting_verticalBarsClipPercentage_label": {
-    "message": "Sidebars size"
+    "message": "サイドバーのサイズ"
   },
   "setting_horizontalBarsClipPercentageReset_label": {
     "message": "Reset bars next video"
@@ -615,10 +615,10 @@
     "message": "Small & Theater"
   },
   "setting_enableInViews_opt_theater": {
-    "message": "Theater"
+    "message": "シアター"
   },
   "setting_enableInViews_opt_theater_fullscreen": {
-    "message": "Theater & Fullscreen"
+    "message": "シアターとフルスクリーン"
   },
   "setting_enableInViews_opt_fullscreen": {
     "message": "フルスクリーン"
