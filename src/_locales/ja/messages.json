@@ -479,7 +479,7 @@
     "message": "この回避策は、動画がハードウェアアクセラレーションオーバーレイ (MPO) で再生されている際に発生する複数の描画乱れや不具合を修正できます。\n(例: ランダムな白黒の四角形、ちらつき、動画の歪みなど)\n\nこれらの不具合に関する最新情報については、? マークをクリックしてください。"
   },
   "setting_sectionHorizontalBarsCollapsed_label": {
-    "message": "黒帯・カラー帯の除去"
+    "message": "黒いバーと色のバーを除去"
   },
   "setting_detectHorizontalBarSizeEnabled_label": {
     "message": "黒いバーを削除"
